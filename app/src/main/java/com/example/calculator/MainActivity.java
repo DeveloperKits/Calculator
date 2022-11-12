@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         return Integer.toBinaryString(number);
     }
 
-    @Override
+    /*@Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
         Log.i("OnCreate", "OnCreate...");
@@ -132,5 +132,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void button2(View view) {
         startActivity(new Intent(this, MainActivity2.class));
-    }
+    }*/
 }
